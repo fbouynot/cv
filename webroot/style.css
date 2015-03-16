@@ -1,0 +1,510 @@
+@media screen and (max-width: 480px)
+{
+    html
+    {
+        font-family: sans-serif;
+        font-size: .8em;
+        background-color: LightGrey;
+        text-align: left;
+    }
+
+    body
+    {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        color: #777;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+
+    nav div
+    {
+        display:none;
+    }
+
+    nav div:hover
+    {
+        display:none;
+    }
+
+    section
+    {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    #coord
+    {
+        display:none
+    }
+
+    #coord div, #coord aside
+    {
+        display:none;
+    }
+
+    #coord aside
+    {
+        display:none;
+    }
+
+    #titre
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: white;
+        background-color: #6182b0;
+    }
+
+    #comp
+    {
+        margin-top: 0;
+    }
+
+    #exp,#formation,#int,#proj,#comp
+    {
+        border-top: solid #6182b0 1px;
+    }
+
+    #int
+    {
+        margin-bottom: 0;
+        padding: .5em;
+    }
+
+    header aside
+    {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #coord aside img
+    {
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    section table,section aside,section p
+    {
+        vertical-align: top;
+        display: inline-block;
+        margin-top: .5em;
+    }
+
+    section aside
+    {
+        width: 10em;
+    }
+
+    aside p
+    {
+        text-transform: uppercase;
+        color: #6182b0;
+    }
+
+    #int p
+    {
+        padding: 0em;
+    }
+
+    td
+    {
+        padding: 0.5em;   
+    }
+
+    p
+    {
+        margin-bottom: 0;
+    }
+
+    h1
+    {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: normal;
+    }
+
+    h2
+    {
+        font-size: 1.5em;   
+        font-weight: normal;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #777;
+    }
+
+    b
+    {
+        font-weight: normal;
+        color: black;
+    }
+
+    i
+    {
+        font-style: normal;
+        color: black
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 480px)
+{
+    html
+    {
+        font-family: sans-serif;
+        font-size: .8em;
+        background-color: LightGrey;
+        text-align: left;
+    }
+
+    body
+    {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        color: #777;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    
+    nav div
+    {
+        display: inline-block;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    nav div:hover
+    {
+        background-color: #6182b0;
+        color: white;
+    }
+    
+    section
+    {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    #coord
+    {
+        margin-bottom: 50px;
+        margin-top: 0;
+    }
+
+    #coord div, #coord aside
+    {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #coord aside
+    {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    #titre
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: white;
+        background-color: #6182b0;
+    }
+    
+    #comp
+    {
+        margin-top: 0;
+    }
+
+    #exp,#formation,#int,#proj,#comp
+    {
+        border-top: solid #6182b0 1px;
+    }
+
+    #int
+    {
+        margin-bottom: 0;
+        padding: .5em;
+    }
+
+    header aside
+    {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #coord aside img
+    {
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    section table,section aside,section p
+    {
+        vertical-align: top;
+        display: inline-block;
+        margin-top: .5em;
+    }
+
+    section aside
+    {
+        width: 10em;
+    }
+
+    aside p
+    {
+        text-transform: uppercase;
+        color: #6182b0;
+    }
+
+    #int p
+    {
+        padding: 0em;
+    }
+
+    td
+    {
+        padding: 0.5em;   
+    }
+
+    p
+    {
+        margin-bottom: 0;
+    }
+
+    h1
+    {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: normal;
+    }
+
+    h2
+    {
+        font-size: 1.5em;   
+        font-weight: normal;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #777;
+    }
+
+    b
+    {
+        font-weight: normal;
+        color: black;
+    }
+
+    i
+    {
+        font-style: normal;
+        color: black
+    }
+}
+
+
+@media screen and (min-width: 1024px)
+{
+    html
+    {
+        font-family: sans-serif;
+        font-size: .8em;
+        background-color: LightGrey;
+        text-align: left;
+    }
+
+    body
+    {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        color: #777;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    
+    nav div
+    {
+        display: inline-block;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    nav div:hover
+    {
+        background-color: #6182b0;
+        color: white;
+    }
+    
+    section
+    {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    #coord
+    {
+        margin-bottom: 50px;
+        margin-top: 0;
+    }
+
+    #coord div, #coord aside
+    {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #coord aside
+    {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    #titre
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: white;
+        background-color: #6182b0;
+    }
+    
+    #comp
+    {
+        margin-top: 0;
+    }
+
+    #exp,#formation,#int,#proj,#comp
+    {
+        border-top: solid #6182b0 1px;
+    }
+
+    #int
+    {
+        margin-bottom: 0;
+        padding: .5em;
+    }
+
+    header aside
+    {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #coord aside img
+    {
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    section table,section aside,section p
+    {
+        vertical-align: top;
+        display: inline-block;
+        margin-top: .5em;
+    }
+
+    section aside
+    {
+        width: 10em;
+    }
+
+    aside p
+    {
+        text-transform: uppercase;
+        color: #6182b0;
+    }
+
+    #int p
+    {
+        padding: 0em;
+    }
+
+    td
+    {
+        padding: 0.5em;   
+    }
+
+    p
+    {
+        margin-bottom: 0;
+    }
+
+    h1
+    {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: normal;
+    }
+
+    h2
+    {
+        font-size: 1.5em;   
+        font-weight: normal;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #777;
+    }
+
+    b
+    {
+        font-weight: normal;
+        color: black;
+    }
+
+    i
+    {
+        font-style: normal;
+        color: black
+    }
+}
