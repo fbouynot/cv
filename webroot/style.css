@@ -4,7 +4,7 @@
     {
         font-family: sans-serif;
         font-size: .8em;
-        background-color: LightGrey;
+        background-color: #EDE8D9;
         text-align: left;
         margin:0;
         padding:0;
@@ -17,7 +17,7 @@
         margin-bottom: 0;
         margin-left: auto;
         margin-right: auto;
-        background-color: white;
+        background-color: #EDE8D9;
         color: #777;
         padding: 0px;
         padding-bottom: 0px;
@@ -83,6 +83,7 @@
     {
         margin-bottom: 0;
         padding: .5em;
+        padding-top: 0;
     }
 
     header aside
@@ -170,7 +171,7 @@
     {
         font-family: sans-serif;
         font-size: .8em;
-        background-color: LightGrey;
+        background-color: #EDE8D9;
         text-align: left;
         height: 100%;
     }
@@ -182,7 +183,7 @@
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
-        background-color: white;
+        background-color: #EDE8D9;
         color: #777;
         padding: 0px;
         padding-bottom: 0px;
@@ -226,7 +227,12 @@
         display: inline-block;
         vertical-align: top;
     }
-
+    
+    #coord div
+    {
+        padding-left: .5em;
+    }
+    
     #coord aside
     {
         position: relative;
@@ -261,6 +267,7 @@
     {
         margin-bottom: 0;
         padding: .5em;
+        padding-top: 0;
     }
 
     #coord aside img
@@ -339,7 +346,7 @@
     {
         font-family: sans-serif;
         font-size: .8em;
-        background-color: LightGrey;
+        background-color: #EDE8D9;
         text-align: left;
         height: 100%;
     }
@@ -351,7 +358,7 @@
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
-        background-color: white;
+        background-color: #EDE8D9;
         color: #777;
         padding: 0px;
         padding-bottom: 0px;
@@ -425,12 +432,14 @@
     #exp,#formation,#int,#proj,#comp
     {
         border-top: solid #6182b0 1px;
+        background-color: #EDE8D9;
     }
 
     #int
     {
         margin-bottom: 0;
         padding: .5em;
+        padding-top: 0;
     }
 
     #coord aside img

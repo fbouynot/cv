@@ -9,7 +9,7 @@
     </div>
     <aside>
         <?php
-            echo "<img width=121 height=151 src='" . BASE_URL . "/img/photo.jpg'/>";
+            echo "<img width=121 height=151 src='" . BASE_URL . "/img/photo.png'/>";
         ?>
     </aside>
 </section>
