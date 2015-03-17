@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css" />
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
         <?php
-            <script src="js/script.js"></script>
+            echo '<script src="' . BASE_URL . '/js/script.js"></script>';
         ?>
 		<title>CV de Félix Bouynot</title>
 	</head>
