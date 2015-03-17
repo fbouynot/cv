@@ -164,7 +164,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 480px)
+@media screen and (min-width: 480px) and (max-width: 1024px)
 {
     html
     {
@@ -172,6 +172,7 @@
         font-size: .8em;
         background-color: LightGrey;
         text-align: left;
+        height: 100%;
     }
 
     body
@@ -179,14 +180,19 @@
         position: relative;
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
         background-color: white;
         color: #777;
-        padding: 20px;
+        padding: 0px;
         padding-bottom: 0px;
+        min-height: 100%;
     }
     
+    nav
+    {
+        display:none;
+    }
     nav div
     {
         display: inline-block;
@@ -204,15 +210,15 @@
     
     section
     {
-        margin-bottom: 30px;
-        margin-top: 30px;
         text-align: left;
     }
 
     #coord
     {
-        margin-bottom: 50px;
+        margin-bottom: 0;
         margin-top: 0;
+        width: 100%;
+        height:151px;
     }
 
     #coord div, #coord aside
@@ -223,17 +229,16 @@
 
     #coord aside
     {
-        position: absolute;
-        top: 10px;
-        right: 10px;
+        position: relative;
+        float:right;
     }
 
     #titre
     {
         position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
         margin-bottom: 0;
         padding-top: 10px;
         padding-bottom: 20px;
@@ -258,30 +263,21 @@
         padding: .5em;
     }
 
-    header aside
-    {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-
     #coord aside img
     {
         margin: 0;
         padding: 0;
-        margin-right: 20px;
     }
 
     section table,section aside,section p
     {
         vertical-align: top;
         display: inline-block;
-        margin-top: .5em;
     }
 
     section aside
     {
-        width: 10em;
+        width: 10m;
     }
 
     aside p
@@ -337,7 +333,6 @@
     }
 }
 
-
 @media screen and (min-width: 1024px)
 {
     html
@@ -346,6 +341,7 @@
         font-size: .8em;
         background-color: LightGrey;
         text-align: left;
+        height: 100%;
     }
 
     body
@@ -353,12 +349,13 @@
         position: relative;
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
         background-color: white;
         color: #777;
-        padding: 20px;
+        padding: 0px;
         padding-bottom: 0px;
+        min-height: 100%;
     }
     
     nav div
@@ -378,15 +375,15 @@
     
     section
     {
-        margin-bottom: 30px;
-        margin-top: 30px;
         text-align: left;
     }
 
     #coord
     {
-        margin-bottom: 50px;
+        margin-bottom: 0;
         margin-top: 0;
+        width: 100%;
+        height:151px;
     }
 
     #coord div, #coord aside
@@ -397,17 +394,16 @@
 
     #coord aside
     {
-        position: absolute;
-        top: 10px;
-        right: 10px;
+        position: relative;
+        float:right;
     }
 
     #titre
     {
         position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
         margin-bottom: 0;
         padding-top: 10px;
         padding-bottom: 20px;
@@ -432,30 +428,21 @@
         padding: .5em;
     }
 
-    header aside
-    {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-
     #coord aside img
     {
         margin: 0;
         padding: 0;
-        margin-right: 20px;
     }
 
     section table,section aside,section p
     {
         vertical-align: top;
         display: inline-block;
-        margin-top: .5em;
     }
 
     section aside
     {
-        width: 10em;
+        width: 10m;
     }
 
     aside p
@@ -508,5 +495,9 @@
     {
         font-style: normal;
         color: black
+    }
+    #exp,#proj,#formation,#int
+    {
+        display:none;
     }
 }

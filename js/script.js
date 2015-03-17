@@ -2,25 +2,45 @@
 
 $('#navcomp').click(function () {
     'use strict';
-    $("#comp").slideToggle('fast');
+    $("#comp").css("display", "block");
+    $("#exp").css("display", "none");
+    $("#proj").css("display", "none");
+    $("#formation").css("display", "none");
+    $("#int").css("display", "none");
 });
 
 $('#navexp').click(function () {
     'use strict';
-    $("#exp").slideToggle('fast');
+    $("#comp").css("display", "none");
+    $("#exp").css("display", "block");
+    $("#proj").css("display", "none");
+    $("#formation").css("display", "none");
+    $("#int").css("display", "none");
 });
 
 $('#navproj').click(function () {
     'use strict';
-    $("#proj").slideToggle('fast');
+    $("#comp").css("display", "none");
+    $("#exp").css("display", "none");
+    $("#proj").css("display", "block");
+    $("#formation").css("display", "none");
+    $("#int").css("display", "none");
 });
 
 $('#navform').click(function () {
     'use strict';
-    $("#formation").slideToggle('fast');
+    $("#comp").css("display", "none");
+    $("#exp").css("display", "none");
+    $("#proj").css("display", "none");
+    $("#formation").css("display", "block");
+    $("#int").css("display", "none");
 });
 
 $('#navint').click(function () {
     'use strict';
-    $("#int").slideToggle('fast');
+    $("#comp").css("display", "none");
+    $("#exp").css("display", "none");
+    $("#proj").css("display", "none");
+    $("#formation").css("display", "none");
+    $("#int").css("display", "block");
 });
