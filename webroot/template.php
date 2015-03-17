@@ -5,7 +5,9 @@
 		<meta charset='utf-8' name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css" />
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-        <script src="js/script.js"></script>
+        <?php
+            <script src="js/script.js"></script>
+        ?>
 		<title>CV de Félix Bouynot</title>
 	</head>
     <body>
